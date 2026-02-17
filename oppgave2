@@ -1,0 +1,6 @@
+Dictionary = {"Ti": 10, "Tjue": 30, "Tretti": 40, "Førti": 20, "Femti": 50}
+
+Dictionary["Tjue"] = 20
+Dictionary["Tretti"] = 30
+Dictionary["Førti"] = 40
+print(Dictionary)
