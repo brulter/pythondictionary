@@ -1,0 +1,7 @@
+Dictionary = {"Ti": 10, "Tjue": 20, "Tretti": 30, 30: "Tretti", "Førti": 40, "Femti": 50}
+vals = Dictionary.values()
+nyDictionary = {}
+for i in range(0, len(vals), 2):
+    nyDictionary[vals[i]] = vals[i+1]
+# stack overflow tip
+print(nyDictionary) 
